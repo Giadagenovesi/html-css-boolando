@@ -45,7 +45,7 @@ img {
 }
 
 .model {
-    width: 400px;
+    position: relative;
 }
 .discount {
     background-color: red;
@@ -84,4 +84,22 @@ img {
 
 .old-price {
     text-decoration: line-through;
+}
+
+/* hover */
+
+.pose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.card:hover {
+    z-index: 4;
+}
+
+.model:hover {
+    z-index: -10;
+
 }
