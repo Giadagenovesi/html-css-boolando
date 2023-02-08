@@ -26,10 +26,6 @@ img {
 
 .col {
     width: calc(100% / 3 - (20px / 3));
-
-    /* Debug */
-    
-    border: 2px solid black;
 }
 
 /* HEADER */
@@ -46,7 +42,6 @@ img {
 /* card */
 .card {
     position: relative;
-     
 }
 
 .model {
@@ -60,7 +55,6 @@ img {
 .green {
     background-color: #008000;
     padding: .2rem;
-
 }
 
 .promo {
@@ -69,6 +63,10 @@ img {
     bottom: 120px;
     font-size: .9rem;
     color: white;
+}
+
+.description span{
+    font-size: .8rem;
 }
 .heart {
     position: absolute;
