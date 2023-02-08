@@ -9,3 +9,81 @@
 img {
     max-width: 100%;
 }
+
+/* COMMON */
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.col {
+    width: calc(100% / 3 - (20px / 3));
+
+    /* Debug */
+    
+    border: 2px solid black;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    margin-bottom: 30px;
+
+     /* Debug */
+     height: 80px;
+     background-color:  orange;
+
+}
+/* MAIN */
+/* card */
+.card {
+    position: relative;
+     
+}
+
+.model {
+    width: 400px;
+}
+.discount {
+    background-color: red;
+    padding: .2rem;
+}
+
+.green {
+    background-color: #008000;
+    padding: .2rem;
+
+}
+
+.promo {
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+    font-size: .9rem;
+    color: white;
+}
+.heart {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    padding: .3rem .8rem;
+    font-size: 2rem;
+}
+
+.new-price {
+    color: red;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
